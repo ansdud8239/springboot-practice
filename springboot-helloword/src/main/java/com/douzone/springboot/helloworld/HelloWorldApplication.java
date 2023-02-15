@@ -7,8 +7,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 /**
  * 
- * 1. 스프링 애플리케이션의 부트스트래핑 역할: Bootstraping Class 2. 설정 클래스 역할: Configuration
- * Class
+ * 1. 스프링 애플리케이션의 부트스트래핑 역할: Bootstraping Class 
+ * 2. 설정 클래스 역할: Configuration Class
  * 
  */
 @SpringBootApplication
