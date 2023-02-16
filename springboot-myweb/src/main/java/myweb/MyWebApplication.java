@@ -11,13 +11,13 @@ public class MyWebApplication {
 	@Controller
 	public class HelloController{
 		
-		@ResponseBody
 		@RequestMapping("/hello")
 		public String hello() {
-			return "hello world";
+			return "/WEB-INF/views/hello.jsp";
 		}
 	}
 	public static void main(String[] args) {
+		// 웹에서는 톰캣이 실행하면서 쓰레드가 뜨기 때문에 try로 종료시키면 안됨.
 		SpringApplication.run(MyWebApplication.class, args);
 
 	}

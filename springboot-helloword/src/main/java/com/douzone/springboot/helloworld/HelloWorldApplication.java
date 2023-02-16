@@ -11,6 +11,7 @@ import org.springframework.context.ConfigurableApplicationContext;
  * 2. 설정 클래스 역할: Configuration Class
  * 
  */
+// SpringBootApplication이 SpringBootConfiguration을 포함하고 있음
 @SpringBootApplication
 public class HelloWorldApplication {
 	public static void main(String[] args) {
